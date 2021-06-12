@@ -58,12 +58,13 @@
 .contact__link {
   color: var(--color-text);
 
-  .contact & {
+  
+}
+ .contact .contact__link {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
   }
-}
 .contact__icon {
   display: block;
   margin-right: 10px;
